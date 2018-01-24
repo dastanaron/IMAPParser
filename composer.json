@@ -1,0 +1,24 @@
+{
+    "name": "dastanaron/imapparser",
+    "description": "Mail parser based on the php-imap library",
+    "keywords": ["imap", "mail", "parser", "extension"],
+    "type": "extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Ryapolov",
+            "email": "flow199@yandex.ru"
+        }
+    ],
+    "require": {
+
+    },
+    "support": {
+        "issues": "https://github.com/dastanaron/IMAPParser/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "dastanaron\\extension\\": ""
+        }
+    }
+}
